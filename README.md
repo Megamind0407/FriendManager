@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Friend Store 🚀
 
 Build a Friend Store with Python(Flask) and JavaScript(React)
@@ -111,3 +112,6 @@ flask run
 12. Open your browser and go to `http://localhost:5000/` to view the app.
 
 13. Don't forget to Like && Subscribe 🚀
+=======
+# FriendManager
+>>>>>>> b4d586fabb5dfc2bb4314c617078034216589544
