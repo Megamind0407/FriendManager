@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: friendmanager-backend
+    env: python
+    buildCommand: "./backend/build.sh"
+    startCommand: "gunicorn app:app"  # make sure app.py has "app" object
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.9
+    plan: free
